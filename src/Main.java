@@ -13,6 +13,7 @@ public class Main {
             numbersList.add(i);
             expectedSum += i;
         }
+        //Comment
         Random randomNumber = new Random();
         int x = randomNumber.nextInt(100);
         numbersList.remove(x);
